@@ -1,0 +1,137 @@
+# Прогресс русификации
+
+Обновляется по ходу. `[x]` — переведено и проверено, `[~]` — частично, `[ ]` — не начато.
+
+## Квесты (FTB Quests) — приоритет №1
+Названия всех вкладок, групп глав и таблиц наград уже переведены.
+- [x] a_little_help (полностью)
+- [x] bossesminibosses_in_this_realm (полностью: 60+ имён боссов/мини-боссов; восстановлен из defaultconfigs после порчи)
+- [x] dawncraft (полностью: навигация, жители, репутация, 26 контрактов, выносливость, путь к силе, аксессуары, камера, советы)
+- [x] enchanting (полностью: Этерна/Кванта/Аркана, полки, тома)
+- [x] exploration (полностью: измерения, око Энда, привратники)
+- [x] lost__found_quest_map_replacements (полностью: ~40 карт замен, все субтитры и разделы)
+- [x] magic (полностью: заклинания, снаряжение мага, улучшения, свитки, реликвии)
+- [x] monster_coins (полностью)
+- [x] reforging_and_socketing (полностью: гнёзда, печати, зелья, зельевые амулеты)
+- [x] storage (полностью: ящики хранения, облачное хранилище)
+- [ ] test (служебная, скрытая — не переводим)
+- [x] useful_commands_for_servers (полностью: FAQ сервера, репутация, шейдеры, команды)
+- [x] witchcraft (полностью: котлы Hexerei, мётлы, приручение ворон)
+
+## Уже готово вне ресурспака (из прошлой работы + правки)
+- [x] Классы DawnCraft — `config/dcclasses/.../ru_ru.json` (ключи исправлены на `class.dawncraft.*`)
+- [x] UI экрана классов — `assets/dcclasses/lang/ru_ru.json` (ресурспак)
+- [x] Меню FancyMenu — `config/fancymenu/locals/ru_ru.local`
+- [x] Метаданные — `instance.cfg`, `flame/manifest.json` (см. `metadata/`)
+
+## Моды (109) — по убыванию объёма строк
+Формат: `[ ] <строк> mod_id (jar)`
+- [~] 1229 — `fancymenu` — НЕ через ресурспак; меню готовы через .local, json-заготовка удалена
+- [~] 956 — `simple_mobs` — переведено ~245 значимых (предметы, мобы, боссы, эффекты, достижения, подсказки). Осталось: внутренние имена частиц/эффектов, диалоги (<..>), яйца призыва внутренних сущностей, пустые субтитры
+- [ ] 488 — `jet_and_elias_armors`
+- [x] 350 — `dannys_expansion` (полностью: предметы, оружие, броня, мобы, блоки, эффекты, субтитры, описания)
+- [ ] 314 — `enlightened_end`
+- [ ] 266 — `libertyvillagers`
+- [ ] 231 — `dawncraft`
+- [ ] 228 — `travelerstitles`
+- [ ] 179 — `orcz`
+- [ ] 162 — `undead_revamp2`
+- [ ] 159 — `structure_gel`
+- [ ] 143 — `nourished_nether`
+- [ ] 132 — `habitat`
+- [ ] 128 — `goblinsanddungeons`
+- [ ] 125 — `lilwings`
+- [ ] 111 — `storagedrawers`
+- [ ] 110 — `cloudstorage`
+- [ ] 96 — `yungsextras`
+- [ ] 95 — `wildbackport`
+- [ ] 92 — `illageandspillage`
+- [ ] 90 — `betterdungeons`
+- [ ] 86 — `paraglider`
+- [ ] 86 — `ftbteams`
+- [ ] 79 — `betterstrongholds`
+- [ ] 73 — `meetyourfight`
+- [ ] 70 — `quest_giver`
+- [ ] 66 — `reauth`
+- [ ] 61 — `scattered_weapons`
+- [ ] 60 — `sound_physics_remastered`
+- [ ] 57 — `bhmenu`
+- [ ] 53 — `difficultraids`
+- [ ] 51 — `libx`
+- [ ] 50 — `restored_earth`
+- [ ] 41 — `drippyloadingscreen`
+- [ ] 35 — `nethersdelight`
+- [ ] 34 — `solapplepie`
+- [ ] 31 — `notenoughanimations`
+- [ ] 24 — `alexsdelight`
+- [ ] 23 — `sword_soaring`
+- [ ] 23 — `nyfsquiver`
+- [ ] 23 — `creativecore`
+- [ ] 22 — `plushies`
+- [ ] 21 — `fastload`
+- [ ] 20 — `tenshilib`
+- [ ] 18 — `wom`
+- [ ] 18 — `citadel`
+- [ ] 17 — `netherskeletons`
+- [ ] 17 — `callablehorses`
+- [ ] 17 — `betterstats`
+- [ ] 15 — `zensummoning`
+- [ ] 15 — `piglinproliferation`
+- [ ] 14 — `spyglass_improvements`
+- [ ] 14 — `ef_weapon_extended`
+- [ ] 14 — `dragonmounts`
+- [ ] 12 — `pineapple_delight`
+- [ ] 12 — `dogslie`
+- [ ] 10 — `betterdeserttemples`
+- [ ] 9 — `humancompanions`
+- [ ] 9 — `geckolib3`
+- [ ] 8 — `waterdripsound`
+- [ ] 8 — `minecraft`
+- [ ] 8 — `compasscoords`
+- [ ] 8 — `betteroceanmonuments`
+- [ ] 8 — `betterfortresses`
+- [ ] 7 — `followme`
+- [ ] 7 — `fastbench`
+- [ ] 6 — `idas`
+- [ ] 5 — `simplebackups`
+- [ ] 5 — `reputation`
+- [ ] 5 — `mlib`
+- [ ] 5 — `mimic`
+- [ ] 5 — `integrated_stronghold`
+- [ ] 5 — `bloodandmadness`
+- [ ] 4 — `mobhealthbar`
+- [ ] 4 — `dummmmmmy`
+- [ ] 4 — `betterwitchhuts`
+- [ ] 3 — `selene`
+- [ ] 3 — `enchantlimiter`
+- [ ] 3 — `effective_fg`
+- [ ] 3 — `defaultoptions`
+- [ ] 3 — `bwncr`
+- [ ] 3 — `aggrofix`
+- [ ] 2 — `revamped_phantoms`
+- [ ] 2 — `passablefoliage`
+- [ ] 2 — `jeitweaker`
+- [ ] 2 — `improvedmobs`
+- [ ] 2 — `falchionmoveset`
+- [ ] 2 — `equipmentcompare`
+- [ ] 2 — `embeddium`
+- [ ] 2 — `efmpirates`
+- [ ] 2 — `doespotatotick`
+- [ ] 2 — `cristellib`
+- [ ] 1 — `secondchanceforge`
+- [ ] 1 — `reeses-sodium-options`
+- [ ] 1 — `polylib`
+- [ ] 1 — `libraryferret`
+- [ ] 1 — `easymagic`
+- [ ] 1 — `brutalbosses`
+- [ ] 1 — `braincell`
+- [ ] 1 — `badmobs`
+- [ ] 0 — `monsterplus`
+- [ ] 0 — `infernal`
+- [ ] 0 — `friendsandfoes`
+- [ ] 0 — `efdg`
+- [ ] 0 — `darkersouls`
+- [ ] 0 — `crafttweaker`
+- [ ] 0 — `config_defaults/dcclasses`
+- [ ] 0 — `celesteconfig`
+- [ ] 0 — `atlaslib`

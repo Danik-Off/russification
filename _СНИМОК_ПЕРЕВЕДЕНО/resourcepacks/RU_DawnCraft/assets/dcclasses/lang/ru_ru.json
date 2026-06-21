@@ -1,0 +1,9 @@
+{
+	"title.dcclasses.screen": "Классы",
+	"button.dcclasses.confirm": "Подтвердить",
+	"button.dcclasses.select": "Выбрать",
+	"text.dcclasses.attributes": "Характеристики",
+	"text.dcclasses.items": "Предметы",
+	"text.dcclasses.slot": "Слот: %s",
+	"text.dcclasses.skills": "Навыки"
+}

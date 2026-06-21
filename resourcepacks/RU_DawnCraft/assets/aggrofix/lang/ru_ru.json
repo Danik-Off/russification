@@ -1,0 +1,5 @@
+{
+  "gamerule.useAggroFix": "Use the Aggro System",
+  "enchantment.aggrofix.aggronizing": "Aggronizing",
+  "gamerule.useAggroFix.description": "Toggles the aggro system"
+}
